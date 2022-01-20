@@ -1,0 +1,180 @@
+*{margin: 0; padding: 0;}
+/*div
+{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+}*/
+body
+{
+    box-sizing: border-box;
+    width: auto;
+    height: 3000px;
+    background-color: white;
+}
+/* header */
+header
+{
+    background-color: #edcfa9;
+    width: auto;
+    margin-bottom: 0;
+}
+.hed
+{
+    padding-top: 1%;
+    font-size: 1.5cm;
+    padding-bottom: 0%;
+}
+.hedd
+{
+    font-size: 1.5cm;
+}
+ul.nsul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e89f71;
+    height: 100%;
+}
+li.nsli
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+li.nsli a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0%;
+}
+li.nsli a:hover 
+{
+    background: #EDB08A;
+}
+hr
+{
+    padding-top: 0%;
+    margin-top: 0%;
+    border: 0ch;
+    margin-bottom: 0%;
+    height: 10px;
+    background: #DEA683;
+}
+/* end of header*/
+
+/* grouping */
+.gr
+{
+    padding-top: 20px;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.con
+{
+    background-color: white;
+    width: 75%;
+    height: 90%;
+    float: right;
+}
+/* end of grouping */
+
+/* second li,ul for sorting */
+
+ol.nnsol
+{
+    margin: 0;
+    padding: 0;
+    padding: 3%;
+}
+li.nnsli
+{
+    margin-left: 19%;
+    padding: 3%;
+}
+
+/* end of second li,ul */
+/* sorting */
+
+.sel1
+{
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    font-size: larger;
+    border-radius: 5px;
+    appearance: none;
+}
+
+.sub1
+{
+    text-align: center;
+    height: 3 0px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.hr2
+{
+    margin-top: 30px;
+}
+/* sorting end */
+/* Items and texts abouve etc. */
+
+.hic
+{
+    padding-top: 5%;
+}
+
+
+.Cart-Item
+{
+    margin: 10%;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Image-Box
+{
+    width: auto;
+    text-align: center;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 2%;
+    margin-left: 1%;
+}
+.about
+{
+    height: 100%;
+}
+.title
+{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 32px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+    margin-bottom: 10%;
+}
+.subtitle
+{
+    line-height: 10px;
+    font-size: 18px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #909090;
+}
