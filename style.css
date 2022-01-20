@@ -6,10 +6,20 @@
     border-color: black;
 }*/
 
+* {
+    box-sizing: border-box;
+}
+
 .ALL
 {
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .ALL, .gr, .con {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 
 body
 {
